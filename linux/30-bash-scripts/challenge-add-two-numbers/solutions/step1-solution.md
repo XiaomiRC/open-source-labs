@@ -9,8 +9,6 @@ read x
 echo "Enter second number"
 read y
 ((sum = x + y))
-# OR use
-# sum=$(($n1+$n2))
 echo "The result of addition=$sum"
 ```
 OR
