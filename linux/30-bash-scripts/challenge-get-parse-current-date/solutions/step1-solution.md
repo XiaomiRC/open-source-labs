@@ -14,7 +14,13 @@ echo $(date)
 echo "Current Date is: $Day-$Month-$Year"
 echo "Current Time is: $Hour:$Minute:$Second"
 ```
-
+**MY SOLUTION**
+```bash
+vim date_parse.sh
+#!/bin/bash
+output=$(date +'%d-%M-%Y %H:%M:%S')
+echo $output
+```
 Save the file and run it with the following command:
 
 ```bash
