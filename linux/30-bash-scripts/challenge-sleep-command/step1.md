@@ -19,3 +19,8 @@ sleep 5s
 ## Requirements
 
 To complete this challenge, you need to have a basic understanding of Bash commands and how to create and run Bash scripts. You also need to have access to a Linux or Unix operating system.
+
+1. Create a file sleep_example.sh
+2. Print 'Wait for 5 seconds'
+3. Then wait for 5 seconds
+4. Then print 'wait successfull'
