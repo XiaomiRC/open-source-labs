@@ -9,6 +9,14 @@ for ((counter = 10; counter > 0; counter--)); do
 done
 printf "\\n"
 ```
+**MY SOUTION**
+```bash
+#!/bin/bash               
+for((i=10;i>=1;i--));                                                                                                                                                
+do             
+echo -n "$i "  
+done
+```
 
 To run the script, execute the following command in the terminal:
 
