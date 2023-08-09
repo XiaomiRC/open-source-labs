@@ -12,7 +12,20 @@ while $valid; do
   ((count++))
 done
 ```
-
+**MY SOLUTION**
+```bash
+#!/bin/bash               
+count=1
+while true; 
+do
+echo $count
+if [ $count -eq 5 ];
+then
+break
+fi
+((count ++))
+done
+```
 To run the Bash file, use the following command:
 
 ```
